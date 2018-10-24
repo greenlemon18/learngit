@@ -1,0 +1,28 @@
+﻿form表单就像一个框架一样里面写的都是表单的内容
+常见的input标签  input textarea select等
+get的传输有字数限制而且传输内容在地址栏显示
+post的传输无数限制而且传输内容不会在地址栏显示对信息进行了加密。
+而且两者传输的方式不同一个是利用URL进行传输一个是利用HTTP机制
+input的name顾名思义就是服务器用于识别表单数据用的名称
+radio的组不同的地方就是name属性，拥有不同name属性的radio组就是不同的
+placeholder其实就是我们常见的你还没输入的时候框里面就有一些比如“请输入你的姓名”这样的预输入字符
+hidden隐藏的输入框用户不可见，但是我们要提交数据 就可以用hidden 我们可以根据input的name来获取输入的东西
+
+CSS 指层叠样式表 (Cascading Style Sheets)
+
+引进css可以
+直接使用<style>标签内编写</style>
+link引进CSS
+用import引进css
+style当作属性时直接定义CSS
+
+link是先显示再加载HTML
+import就刚好相反
+
+标准书写规范
+
+DOCTYPE在第一行
+meta编码模式的使用
+CSS和JavaScript的引进
+尽量避免迭代重构
+尽量避免import来增加代码运行速度
